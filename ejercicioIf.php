@@ -10,8 +10,12 @@
 <body>
 
     <?php
-    $nombre = "Jordi";
-    $edad=18;
+    
+    //$nombre = "Jordi";
+    //$edad=18;
+
+    $nombre = $_POST['nombre'];
+    $edad = jo$_POST['edad'];
 
     /* La comparación con == compara la igualdad igual que en el resto de lenguajes de programación */
     if($nombre=="Jordi" && $edad>=18){
@@ -26,6 +30,8 @@
         === probada igualdad -> "5" == 5; (false) Porque el string "5" no es igual que el integer 5
 
     */
+
+    echo "xxxxxxxxxxxxxx";
 
     ?>
 

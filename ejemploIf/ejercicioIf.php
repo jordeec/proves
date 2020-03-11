@@ -14,8 +14,9 @@
     //$nombre = "Jordi";
     //$edad=18;
 
-    $nombre = $_POST['nombre'];
-    $edad = jo$_POST['edad'];
+    $nombre = $_REQUEST["nombre"];
+
+    $edad = $_POST['edad'];
 
     /* La comparación con == compara la igualdad igual que en el resto de lenguajes de programación */
     if($nombre=="Jordi" && $edad>=18){
